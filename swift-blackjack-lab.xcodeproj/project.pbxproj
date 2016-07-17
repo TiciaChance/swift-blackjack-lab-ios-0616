@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4037061D380B0D006E1B1B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4037051D380B0D006E1B1B /* Card.swift */; };
+		1B4037081D380F66006E1B1B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4037071D380F66006E1B1B /* Deck.swift */; };
 		1B7BC4291D301D6C00454AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC4281D301D6C00454AAB /* AppDelegate.swift */; };
 		1B7BC42B1D301D6D00454AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC42A1D301D6D00454AAB /* ViewController.swift */; };
 		1B7BC42E1D301D6D00454AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7BC42C1D301D6D00454AAB /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 		1B9BCC0E1D3027320080E45D /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BCC0D1D3027320080E45D /* DeckSpec.swift */; };
 		1B9BCC101D3027580080E45D /* DealerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BCC0F1D3027580080E45D /* DealerSpec.swift */; };
 		1B9BCC121D3027720080E45D /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BCC111D3027720080E45D /* CardSpec.swift */; };
+		1BE3A0AE1D3B0ABF00752A4E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3A0AD1D3B0ABF00752A4E /* Player.swift */; };
+		1BE3A0B01D3BD96000752A4E /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3A0AF1D3BD96000752A4E /* Dealer.swift */; };
+		1BE3A0B21D3BDC1100752A4E /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3A0B11D3BDC1100752A4E /* House.swift */; };
 		27D170B89F7408C8EE2BCB9A /* Pods_swift_blackjack_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404F70BE083BCE33FAE30C91 /* Pods_swift_blackjack_labTests.framework */; };
 		9270B07079B11307409944C5 /* Pods_swift_blackjack_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A3AC27C31E30B3B95AF9D3 /* Pods_swift_blackjack_lab.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4037051D380B0D006E1B1B /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1B4037071D380F66006E1B1B /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = ../Deck.swift; sourceTree = "<group>"; };
 		1B7BC4251D301D6C00454AAB /* swift-blackjack-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-blackjack-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7BC4281D301D6C00454AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B7BC42A1D301D6D00454AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +55,9 @@
 		1B9BCC0D1D3027320080E45D /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
 		1B9BCC0F1D3027580080E45D /* DealerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealerSpec.swift; sourceTree = "<group>"; };
 		1B9BCC111D3027720080E45D /* CardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSpec.swift; sourceTree = "<group>"; };
+		1BE3A0AD1D3B0ABF00752A4E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1BE3A0AF1D3BD96000752A4E /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		1BE3A0B11D3BDC1100752A4E /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		2ADC951003952CD1D57079D6 /* Pods-swift-blackjack-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-blackjack-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-blackjack-labTests/Pods-swift-blackjack-labTests.release.xcconfig"; sourceTree = "<group>"; };
 		404F70BE083BCE33FAE30C91 /* Pods_swift_blackjack_labTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_blackjack_labTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43357FF39272C5EE2B29D509 /* Pods-swift-blackjack-lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-blackjack-lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-blackjack-lab/Pods-swift-blackjack-lab.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 			children = (
 				1B7BC4281D301D6C00454AAB /* AppDelegate.swift */,
 				1B7BC42A1D301D6D00454AAB /* ViewController.swift */,
+				1B4037051D380B0D006E1B1B /* Card.swift */,
+				1B4037071D380F66006E1B1B /* Deck.swift */,
+				1BE3A0AD1D3B0ABF00752A4E /* Player.swift */,
+				1BE3A0AF1D3BD96000752A4E /* Dealer.swift */,
+				1BE3A0B11D3BDC1100752A4E /* House.swift */,
 				1B7BC42C1D301D6D00454AAB /* Main.storyboard */,
 				1B7BC42F1D301D6D00454AAB /* Assets.xcassets */,
 				1B7BC4311D301D6D00454AAB /* LaunchScreen.storyboard */,
@@ -343,7 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE3A0B21D3BDC1100752A4E /* House.swift in Sources */,
+				1B4037081D380F66006E1B1B /* Deck.swift in Sources */,
 				1B7BC42B1D301D6D00454AAB /* ViewController.swift in Sources */,
+				1BE3A0B01D3BD96000752A4E /* Dealer.swift in Sources */,
+				1B4037061D380B0D006E1B1B /* Card.swift in Sources */,
+				1BE3A0AE1D3B0ABF00752A4E /* Player.swift in Sources */,
 				1B7BC4291D301D6C00454AAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
